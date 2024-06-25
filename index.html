@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advocacia</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<!-- carousel com imagens
+layout grid (3 itens por linha, 2 e 1 para mobile)
+cards -->
+
+    <header class="bg-light fixed-top" id="header">
+        <div class="container">
+
+            <div class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    
+                    <a class="navbar-brand" href="#">advogados etc associados</a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu-nav">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                  
+
+                    <nav class="collapse navbar-collapse justify-content-end" id="menu-nav">
+                        <ul class="nav navbar-nav nav-underline">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#escritorio">escritório</a>
+                            </li>
+                            
+                            <li class="nav-item">
+                                <a class="nav-link" href="#servicos">serviços</a>
+                            </li>
+                            
+                            <li class="nav-item">
+                                <a class="nav-link" href="#clientes">clientes</a>
+                            </li>
+                            
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contato">contato</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                </div>
+            </div>
+            
+        </div>
+    </header>
+
+    <div class="container" data-bs-spy="scroll" data-bs-target="#header">
+
+    <section id="escritorio">
+
+        <div data-bs-ride="carousel" id="carousel" class="carousel slide carousel-fade">
+
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            
+            
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                    <img src="./images/img1.jpg" alt="...">
+                    <div class="carousel-caption">
+                        <h5>Assine documentos conosco!</h5>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="./images/img2.jpg" alt="...">
+                    <div class="carousel-caption">
+                        <h5>Bata o martelo.</h5>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="./images/img3.jpg" alt="...">
+                    <div class="carousel-caption">
+                        <h5>Atendemos pelo whatsapp</h5>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="./images/img4.jpg" alt="...">
+                    <div class="carousel-caption">
+                        <h5>Reuniões</h5>
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Próximo</span>
+                </button>
+                
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section id="servicos">
+
+        <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 g-4">
+
+            <div class="col">
+
+                <div class="card">
+                    
+                    <img src="./images/imposto.jpg" alt="">
+                    
+                    <div class="card-body">
+                        
+                        <h5 class="card-title">Tributário</h5>
+                        <p class="card-text">Sonegou imposto e te pegaram?</p>
+                        <a href="#contato" class="btn btn-warning">fale consco</a>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="col">
+
+                <div class="card">
+                    
+                    <img src="./images/aposentado.jpg" alt="">
+                    
+                    <div class="card-body">
+                        
+                        <h5 class="card-title">Previdenciário</h5>
+                        <p class="card-text">Deu de trabalhar?</p>
+                        <a href="#contato" class="btn btn-warning">fale consco</a>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="col">
+
+                <div class="card">
+                    
+                    <img src="./images/crime.jpg" alt="">
+                    
+                    <div class="card-body">
+                        
+                        <h5 class="card-title">Criminal</h5>
+                        <p class="card-text">Fez besteira?</p>
+                        <a href="#contato" class="btn btn-warning">fale consco</a>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="col">
+
+                <div class="card">
+                    
+                    <img src="./images/escravo.jpg" alt="">
+                    
+                    <div class="card-body">
+                        
+                        <h5 class="card-title">Trabalhista</h5>
+                        <p class="card-text">Trabalha feito um escravo?</p>
+                        <a href="#contato" class="btn btn-warning">fale consco</a>
+                    </div>
+                </div>
+                
+            </div>
+
+        </div>
+    </section>
+
+    <section id="clientes">
+
+        <div class="row row-cols-sm-1 row-cols-md-1 row-cols-lg-2 g-4">
+        
+            <div class="col">
+
+                <div class="card" id="feedback">
+                    <img src="./images/feedback.jpg">
+                </div>
+
+            </div>
+
+            <div class="col">
+
+                <div data-bs-ride="carousel-clientes" class="carousel slide carousel-fade" id="carousel-clientes">
+
+                    <div class="carousel-inner">
+
+                        <div class="carousel-item active">
+                            <div class="card text-bg-light px-5 py-3">                
+                                <h5 class="card-title"><i class="bi bi-person-circle"></i> João</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum et dicta quibusdam excepturi exercitationem nam! Saepe veritatis sed iure repudiandae repellendus, dolor mollitia voluptas dolore culpa placeat ex in aliquam.</p>
+                                <div class="card-footer text-center">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="card text-bg-light px-5 py-3">
+                                <h5 class="card-title"><i class="bi bi-person-circle"></i> Pedro</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium eveniet quasi quis officiis labore commodi quisquam rem inventore, sapiente voluptates blanditiis voluptatem? Facere accusamus officia atque illo veritatis, sapiente numquam!</p>
+                                <div class="card-footer text-center">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="card text-bg-light px-5 py-3">
+                                <h5 class="card-title"><i class="bi bi-person-circle"></i> Maria</h5>
+                                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit minima asperiores in itaque nisi sunt dolorum aperiam exercitationem voluptatum, aut fugit, quidem aliquid. Libero perspiciatis dolorem aspernatur. Rem, labore temporibus!</p>
+                                <div class="card-footer text-center">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="card text-bg-light px-5 py-3">
+                                <h5 class="card-title"><i class="bi bi-person-circle"></i> Paula</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo aliquam omnis nam vitae natus explicabo saepe recusandae libero facere. Placeat, nostrum natus autem voluptas delectus ipsam nesciunt impedit porro a!</p>
+                                <div class="card-footer text-center">
+                                    <i class="bi bi-star-fill"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-clientes" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Anterior</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carousel-clientes" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Próximo</span>
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    
+    <section id="contato">
+        
+        <div class="row row-cols-sm-1 row-cols-md-1 row-cols-lg-2 g-4">
+
+            
+            <form>
+                <h2>Contato</h2>
+                <label class="form-label" for="nome">Seu nome:</label>
+                <input class="form-control" type="text" name="nome" id="nome">
+                
+                <label for="email" class="form-label">Seu e-mail:</label>
+                <input type="email" class="form-control" name="email" id="email">
+                
+                <label class="form-label" for="mensagem">Mensagem</label>
+                <textarea class="form-control" name="mensagem" id="mensagem"></textarea>
+                
+                <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" name="aceito-termos" id="aceito-termos">
+                    <label for="aceito-termos" class="form-check-label">Li e concordo com os termos</label>
+                </div>
+                
+                <button class="btn btn-success">Enviar</button>
+            </form>
+            
+            <div class="col">
+
+                <div class="card border-0">
+
+                    <div class="card-header">
+                        Nossa equipe de advogados aguarda sua mensagem. Responderemos o mais breve possível.
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    </div>
+
+    <footer class="bg-dark text-secondary p-3">
+        <div class="container">
+            &copy; Todos os direitos reservados
+        </div>
+    </footer>
+    
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>

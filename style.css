@@ -1,0 +1,56 @@
+a.navbar-brand {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* .navbar-nav .nav-link.active {
+    color: #ffffff;
+} */
+
+.carousel-item img {
+    max-height: 450px;
+    width: 100%;
+    overflow-y: hidden;
+}
+
+#carousel {
+    margin: 36px 0;
+}
+
+/* #servicos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2%;
+} */
+
+.card img {
+    max-height: 180px;
+}
+
+/* #clientes {
+    margin-top: 36px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 3%;
+} */
+
+#clientes .carousel-control-next,
+#clientes .carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
+
+.card-text {
+    text-align: justify;
+}
+
+#feedback img {
+    max-height: 100%;
+}
+
+h5.card-title {
+    font-weight: bold;
+}
+
+section, footer {
+    margin-top: 64px;
+}
